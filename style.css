@@ -142,6 +142,7 @@ input {
   border-radius: 10px;
   width: 327px;
   height: 48px;
+  border: none;
 }
 
 .btn-grad:hover {
