@@ -150,3 +150,6 @@ input {
   color: #fff;
   text-decoration: none;
 }
+.btn-grad:active {
+  opacity: 0.8;
+}
