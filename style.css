@@ -98,7 +98,7 @@ main {
   width: 375px;
   border-radius: 20px;
   background: #f4f4f4;
-  margin: 0 auto;
+  margin: 0 auto 40px;
   padding: 44px 24px 23px;
 }
 
@@ -156,4 +156,40 @@ input {
 }
 .btn-grad:active {
   opacity: 0.8;
+}
+
+section{
+border-radius: 20px;
+border: 1px solid #772FD3;
+margin-top: 20px;
+padding: 12px;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.arrow-img{
+  margin: 15px 0px;
+  
+}
+.currency-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    gap: 8px;
+}
+
+.currency{
+    font-size: 14px;
+    font-weight: 400;
+    color: #777; 
+  
+
+}
+
+.currency-value{
+  font-size: 20px;
+  font-weight: 700;
+  color: #555;
 }
