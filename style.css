@@ -148,8 +148,8 @@ input {
   border: none;
   font-size: 18px;
   font-weight: 700;
-    cursor: pointer;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .convert-button:hover {
@@ -157,43 +157,38 @@ input {
   color: #fff;
   text-decoration: none;
 }
-.btn-grad:active {
+.convert-button:active {
   opacity: 0.8;
 }
 
-section{
-border-radius: 20px;
-border: 1px solid #772FD3;
-margin-top: 20px;
-padding: 12px;
-display: flex;
-flex-direction: column;
-align-items: center;
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-
-
-}
-
-.arrow-img{
-  margin: 15px 0px;
-  
-}
-.currency-box{
+section {
+  border-radius: 20px;
+  border: 1px solid #772fd3;
+  margin-top: 20px;
+  padding: 12px;
   display: flex;
   flex-direction: column;
   align-items: center;
-    gap: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.currency{
-    font-size: 14px;
-    font-weight: 400;
-    color: #777; 
-  
-
+.arrow-img {
+  margin: 15px 0px;
+}
+.currency-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
 }
 
-.currency-value{
+.currency {
+  font-size: 14px;
+  font-weight: 400;
+  color: #777;
+}
+
+.currency-value {
   font-size: 20px;
   font-weight: 700;
   color: #555;
