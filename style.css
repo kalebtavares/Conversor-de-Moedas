@@ -123,7 +123,7 @@ input {
   cursor: pointer;
 }
 
-.btn-grad {
+.convertButton {
   background-image: linear-gradient(
     to right,
     #1a2980 0%,
@@ -131,7 +131,7 @@ input {
     #1a2980 100%
   );
 }
-.btn-grad {
+.convertButton {
   margin: 0 auto;
   padding: 15px 45px;
   text-align: center;
@@ -149,7 +149,7 @@ input {
     cursor: pointer;
 }
 
-.btn-grad:hover {
+.convertButton:hover {
   background-position: right center;
   color: #fff;
   text-decoration: none;
