@@ -31,9 +31,17 @@ function convertValues() {
   }).format(inputCurrencyValue);
 }
 
-  function changeCurrency() {
-    console.log("mudou");
+function changeCurrency() {
+  const currencyName = document.getElementById("currency-name");
+
+  if (currencySelect.value == "dolar") {
+    currencyName.innerHTML = "Dólar americano";
   }
 
-currencySelect.addEventListener("change", changeCurrency); 
+  if (currencySelect.value == "euro") {
+    currencyName.innerHTML = "Euro";
+  }
+}
+
+currencySelect.addEventListener("change", changeCurrency);
 convertButton.addEventListener("click", convertValues);
