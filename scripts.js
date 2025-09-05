@@ -29,9 +29,11 @@ function convertValues() {
     style: "currency",
     currency: "BRL",
   }).format(inputCurrencyValue);
+}
 
   function changeCurrency() {
     console.log("mudou");
   }
-}
+
+currencySelect.addEventListener("change", changeCurrency); 
 convertButton.addEventListener("click", convertValues);
