@@ -41,6 +41,10 @@ function changeCurrency() {
   if (currencySelect.value == "euro") {
     currencyName.innerHTML = "Euro";
   }
+
+  if (currencySelect.value == "btc") {
+    currencyName.innerHTML = "Biticoin";
+  }
 }
 
 currencySelect.addEventListener("change", changeCurrency);
