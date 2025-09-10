@@ -34,7 +34,7 @@ function convertValues() {
     }).format(inputCurrencyValue / euroToday);
   }
 
-  if (currencySelect.value === "biticoin") {
+  if (currencySelect.value === "btc") {
     currencyValueConverted.innerHTML = new Intl.NumberFormat("en-US", {
       style: "currency",
       currency: "XBT",
