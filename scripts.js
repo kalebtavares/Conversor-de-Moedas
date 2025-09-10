@@ -72,6 +72,8 @@ if (currencySelect.value == "libra") {
     currencyImg.src = "./assets/image/libra.png";
   }
 
+  convertValues
+
 
 }
 
