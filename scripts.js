@@ -63,7 +63,7 @@ function changeCurrency() {
   }
 
   if (currencySelect.value == "btc") {
-    currencyName.innerHTML = "Biticoin";
+    currencyName.innerHTML = "Bitcoin";
     currencyImg.src = "./assets/image/bitcoin.png";
   }
 
