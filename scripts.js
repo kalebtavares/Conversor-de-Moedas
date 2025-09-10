@@ -33,19 +33,31 @@ function convertValues() {
 
 function changeCurrency() {
   const currencyName = document.getElementById("currency-name");
+  const currencyImg = document.querySelector(".currency-img");
 
   if (currencySelect.value == "dolar") {
     currencyName.innerHTML = "Dólar americano";
+    currencyImg.src = "./assets/image/estados-unidos.png";
   }
 
   if (currencySelect.value == "euro") {
     currencyName.innerHTML = "Euro";
+    currencyImg.src = "./assets/image/euro.png";
   }
 
   if (currencySelect.value == "btc") {
     currencyName.innerHTML = "Biticoin";
+    currencyImg.src = "./assets/image/bitcoin.png";
   }
+
+if (currencySelect.value == "libra") {
+    currencyName.innerHTML = "Libra Esterlina";
+    currencyImg.src = "./assets/image/libra.png";
+  }
+
+
 }
+
 
 currencySelect.addEventListener("change", changeCurrency);
 convertButton.addEventListener("click", convertValues);
