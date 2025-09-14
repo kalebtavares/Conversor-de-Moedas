@@ -2,7 +2,7 @@
 
 Um conversor de moedas moderno e intuitivo que permite converter Real Brasileiro (BRL) para diferentes moedas internacionais.
 
-![Preview do Projeto](./assets/image/Money.gif)
+![Preview do Projeto](/assets/image/view-desktop.png)
 
 ## 🚀 Funcionalidades
 
